@@ -1,0 +1,56 @@
+.QuoteForm {
+    padding: 1.25em;
+    width: 450px;
+    font-size: 1.2em;
+    padding-left: calc(40px + 1em);
+    margin-top: 1rem;
+  }
+  
+  .QuoteForm h3 {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .QuoteForm label,
+  .QuoteForm input,
+  .QuoteForm textarea {
+    display: block;
+  }
+  
+  .QuoteForm label {
+    font-size: 0.925rem;
+  }
+  
+  .QuoteForm input,
+  .QuoteForm textarea {
+    margin-bottom: 1em;
+    width: 90%;
+    padding: 0.25rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  .QuoteForm input:focus {
+    outline: none;
+  }
+  
+  .QuoteForm button {
+    background: #554478;
+    border: 1px solid #554478;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .QuoteForm .length-ok {
+    border: 1px solid #9ae6b4;
+  }
+  
+  .QuoteForm .length-maximum-reached {
+    border: 1px solid #fc8181;
+  }
+  
+  .QuoteForm .remaining-characters {
+    color: #555;
+  }
+  
+  

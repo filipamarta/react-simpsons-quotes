@@ -1,17 +1,22 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Roboto:wght@400;900&display=swap');
+
+.quotes {
+  padding: 50px;
+  margin: 0 auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn {
+  padding: 15px 25px;
+  background-color: rgb(245, 241, 37);
+  border-radius: 40px;
+  border: 0;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -24,15 +29,3 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
